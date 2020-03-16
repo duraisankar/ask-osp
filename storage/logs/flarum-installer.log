@@ -1,0 +1,7 @@
+[2020-03-15 16:13:16] Flarum Installer.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "info" is not defined. in F:\Projects\OneStopPega\ask-forum\vendor\symfony\console\Application.php:669
+Stack trace:
+#0 F:\Projects\OneStopPega\ask-forum\vendor\symfony\console\Application.php(235): Symfony\Component\Console\Application->find('info')
+#1 F:\Projects\OneStopPega\ask-forum\vendor\symfony\console\Application.php(147): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 F:\Projects\OneStopPega\ask-forum\vendor\flarum\core\src\Console\Server.php(44): Symfony\Component\Console\Application->run()
+#3 F:\Projects\OneStopPega\ask-forum\flarum(24): Flarum\Console\Server->listen()
+#4 {main}  
